@@ -1,0 +1,32 @@
+{
+  "name": "szyfr-cezara",
+  "version": "1.0.0",
+  "description": "i-nara",
+  "main": "app.js",
+  "scripts": {
+    "test": "elo",
+    "start": "browser-sync start --server --files \"*.html, *.css, *.js\"",
+    "autoprefixer": "postcss *.css --use autoprefixer -r"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "tso"
+  },
+  "keywords": [
+    "szyfr",
+    "cezar"
+  ],
+  "author": "Szymeg",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  }
+}
